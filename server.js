@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 // MongoDB Connection
-mongoose.connect('mongodb://localhost:27017/expense-tracker', {
+mongoose.connect('mongodb://atlas-sql-693089c2cda18215599c9745-yydeee.a.query.mongodb.net/sample_mflix?ssl=true&authSource=admin', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
